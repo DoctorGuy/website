@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    
+    
+        <title>Elliott Wills, MPH</title>
+    </head>
+
+<section>
+    <body>
+        <h1 class = "text"> Professional Summary</h1>
+
+        <p>My name is Elliott Wills and  I am a data professional living in Seattle, Washington. 
+            One of my favorite things is to build systems and tech to improve the way we interact with
+            and understand our digital world. I don't know everything yet, but I'm working on it. </p>
+
+        
+            <img id= "test" alt="Image of Elliott W." src="C:/Users/ellio/Documents/Website pics/IMG_1017.jpg"/>
+            <figcaption>
+                <p>Check out my Linkedin profile for more information and to connect. Look forward to speaking with you soon!</p> 
+                <a href = 'https://www.linkedin.com/in/elliott-wills/'>Linkedin</a>
+            </figcaption>
+
+ <!-- Adding our JavaScript in the script tag -->
+ <script>
+    // Identifying our image
+    const smiley = document.querySelector("#test");
+
+    // Adding reaction when image is clicked
+    smiley.addEventListener("click", () => {
+       alert(`What on God's green earth drove you too click on me? Is it because there's no hyper links to a page about me yet? It's my first website calm down, Jesus. `);
+    });
+  </script>
+ 
+
+
+    </body>
+</section>
+
+<section>
+    <h2>Let's connect! My people will contact your people.</h2>
+    <form>
+    <input type = 'text' id = 'email' placeholder="Email">
+    <input type = 'number' id = 'phone' placeholder="Phone number">
+    <input type = 'submit' onclick="send()">
+
+<script> src = 'script.js' </script>
+</section>
+
+
+</html>
