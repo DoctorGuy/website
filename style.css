@@ -1,5 +1,5 @@
 p {
-    color: rgb(0, 116, 0);
+    color: #f5ece5;
 }
 
 /* Additional CSS rules */
@@ -9,6 +9,10 @@ body {
 
 div {
   background-color: #45523e ;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 h1 {
