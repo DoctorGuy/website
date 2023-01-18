@@ -4,11 +4,11 @@ p {
 
 /* Additional CSS rules */
 body {
-  background-color: lightgray;
+  background-color: #b0aca2;
 }
 
 div {
-  background-color: olivedrab;
+  background-color: #45523e ;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
 }
 
 .text {
-  color: rgb(0, 92, 0);
+  color: #f5ece5);
 }
 
 #image1 {
