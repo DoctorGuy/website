@@ -18,7 +18,12 @@ div {
   margin-right: auto;
   width: 80%;
 }
-
+a:hover{
+  color:brown;
+}
+a:visited{
+  color:#45523e
+}
 h1 {
   font-size: 24px;
 }
