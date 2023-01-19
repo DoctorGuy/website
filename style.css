@@ -6,7 +6,11 @@ p {
 body {
   background-color: #b0aca2;
 }
-
+hr {
+  height:2px;
+  background-color: #45523e;
+  border-color: #45523e;
+}
 div {
   background-color: #45523e ;
   text-align: center;
