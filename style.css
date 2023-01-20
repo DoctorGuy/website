@@ -27,6 +27,21 @@ a:visited{
 h1 {
   font-size: 24px;
 }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.image {
+  flex-basis: 40%
+}
+
+.pictext {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+
 img {
   border-radius: 50%;
 }
