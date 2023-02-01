@@ -31,7 +31,7 @@ hr {
   border-color: #45523e;
 }
 .connect {
-  background-color: #45523e ;
+  background: linear-gradient(90deg,  #45523e, #abc99b, #45523e);
   text-align: center;
   margin-left: auto;
   margin-right: auto;
