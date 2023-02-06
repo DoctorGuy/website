@@ -6,6 +6,7 @@ ul {
 }
 li {
   float: center;
+  display: inline;
 }
 
 .navbar {
