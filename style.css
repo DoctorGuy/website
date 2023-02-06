@@ -52,7 +52,7 @@ h1 {
   align-items: center;
   justify-content: center
 }
-.image1 {
+.img {
   flex-basis: 40%
 }
 
@@ -62,7 +62,7 @@ h1 {
 }
 
 
-.image1 {
+.image {
   border-radius: 50%;
 }
 
@@ -70,7 +70,7 @@ h1 {
   color: #f5ece5;
 }
 
-.image1 {
+.image {
     width: 600px;
     height: auto;
 }
