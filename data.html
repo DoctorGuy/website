@@ -4,6 +4,64 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.00"/>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css"/>
-        <title>Data</title>
+        <title>Rasberry Pi Meeting Reminder and Weather Display</title>
+        <ul>
+            <li><a class="navbar" href="/">Home</a></li>
+            <li><a class="navbar" href="about">About Me</a></li>
+            <li><a class="navbar" href="Port">R: Basics</a></li>
+            <li><a class="navbar" href="python_ad">Python: Analysis and Reporting</a></li>
+            <li><a class="navbar" href="data">Raspberry Pi</a></li>
+          </ul>
     </head>
+    <section>
+        <h2>How it Started</h2>
+        <p>As I was looking for another project after the very sad removal of my cryptocurrecny miner (That thing was Hot!), I needed another device to pour my late night attention into.
+            I wanted something that would last, and could spawn multiple projects and provide me some utility. After some research, I knew a Raspberry Pi device would fit the bill!|
+            For those who don't know, a Raspberry Pi is a miny, highly adaptive, low cost computer. About the size of a credit card, this thing isn't breaking any records, but it'll get the job done.
+            For more first project, I decided to build out a Google calendar reminder using a Raspberry pi and an 8 by 8 LED display called a Unicorn Hat. I initially followed the guide
+            found <a href = https://makezine.com/projects/get-a-flashing-meeting-reminder-with-a-raspberry-pi/ >here</a>.
+        </p>
+        <h2>How it Went</h2>
+        <p>After learning how to access the Google Developer suite, access their API, and refit the existing code provided through the tutorial to both the updated libraries and 
+            slightly different hardware, I was left with a simple but effective reminder tool. Lights flashed when I had a meeting coming up, but other than that, it was missing something. 
+            I decided to challenge myself to add a live weather feature. Again, nothing crazy, but a readout of the current temperature would let me work with a new API, insert my own flavor, and make the display a lot more lively.
+        </p>
+        <h2>How it Ended</h2>
+        <p>Below you'll see the images of the project and I think it was a great success and I can't believe how much I learned! I have a minute by minute update for the weather, I get
+            updates for upcoming meetings in 5 minute increments when the next meeting is less than 15 minutes away, and I learned just tons about working with sudo/bash terminal commands, 
+            git pulls and merges, REST API's, and got to sharpen my python skills. I'm very happy with how it turned out and excited to see where it might go!
+        </p>
+        <div class = "container">
+            <div class = 'image'>
+            <img id= "image" class = 'image' alt="Weather display on a Raspberry pi 3b+" src="./Weather.JPG"/>
+            </div>
+            <div class = "pictext">
+                <p>Weather display on a Raspberry pi 3b+</p>
+            </div>
+        </div>
+
+
+        <div class = "container">
+            <div class = 'image'>
+            <img id= "image" class = 'image' alt="Green lights flash on raspberry pi" src="./Greenlight.JPG"/>
+            </div>
+            <div class = "pictext">
+                <p>Weather display on a Raspberry pi 3b+</p>
+            </div>
+        </div>
+
+
+        <div class = "container">
+            <div class = 'image'>
+            <img id= "image" class = 'image' alt="White lights flash on raspberry pi" src="./Whitelight.JPG"/>
+            </div>
+            <div class = "pictext">
+                <p>Weather display on a Raspberry pi 3b+</p>
+            </div>
+        </div>
+        <h2>Where It'll Go</h2>
+        <p>For the next project, I want to build something to automate watering plants! No idea how, but I'd love to build my own water release contraption, intergrate some moisture detection, and really write my own stuff from scratch. 
+            Stay Tuned!
+        </p>
+    </section>
 </html>
